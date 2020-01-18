@@ -1,0 +1,10 @@
+///////////////////////////////////  Setup Instruction /////////////////////////
+
+1.Create a blank database with name hi5_working.
+2. Import from hi5_working\database\migrations\hi5_working.sql file
+3. Run command:
+composer update
+Php artisan migrate
+Php artisan serve
+
+

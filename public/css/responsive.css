@@ -1,0 +1,285 @@
+@media (max-width: 747px) {
+    .adsMargin {
+        display: none;
+    }
+
+    .user-profile-menu-bar {
+        margin: 0;
+        border: 0;
+    }
+
+    .user-profile-navbar {
+        padding: 12px;
+        background-color: #80808012;
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+
+    .r-l-no-border {
+        border-left: none !important;
+        border-right: none !important;
+        padding: 10px 0;
+    }
+
+    .profile-image {
+        width: 140px;
+        height: 140px;
+        margin-left: 18px !important;
+        margin-top: -150px !important;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    }
+
+    .search-box {
+        margin-left: 40%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-family: verdana;
+        color: black;
+        /* width: 100%;*/
+    }
+
+    .second-nav {
+        display: none !important;
+    }
+
+    .fol-btn {
+        position: absolute;
+        right: 30px;
+        top: 200px;
+    }
+
+    .rating-share-mobile-view {
+        display: block;
+        margin: 5px;
+    }
+
+    .rating-share-desktop-view {
+        display: none;
+    }
+
+    .text-card {
+        width: 408px;
+        margin-left: 15px;
+    }
+
+    #wallet .input-group {
+        width: 100%;
+        margin: 1rem;
+        margin-left: 0;
+    }
+
+    .blog-post-image {
+        width: 410px;
+    }
+
+    #wallet .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    .wallet-transaction-table {
+        font-size: 9px !important;
+    }
+
+    .emojies .col-md-1 {
+        width: 0;
+    }
+
+    .emojies #like {
+        margin-left: 27px;
+    }
+
+    .emojies .dislike-emoji {
+        margin-left: 44px;
+    }
+
+    .emojies #dislike {
+        margin-left: 35px;
+    }
+
+    .emojies .hurt-emoji {
+        margin-left: 30px;
+    }
+
+    .emojies #love {
+        margin-left: 12px;
+    }
+
+    .emojies .smiley-emoji {
+        margin-left: 18px;
+    }
+
+    .emojies #happy {
+        margin-left: 12px;
+    }
+
+    .emojies .angry-emoji {
+        margin-left: 19px;
+    }
+
+    .emojies #angry {
+        margin-left: 12px;
+    }
+
+    .emojies .disappointed-emoji {
+        margin-left: 19px;
+    }
+
+    .emojies #sad {
+        margin-left: 12px;
+    }
+
+    .product-image {
+        width: 236px !important;
+    }
+
+    .middle-div h6 {
+        margin-left: -22px;
+    }
+
+    .middle-div h4 {
+        margin-left: -39px;
+    }
+
+    .float-left {
+        margin-top: 35px;
+    }
+    #transactionsTable{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 467px) {
+    .search-box {
+        margin-top: -6em !important;
+        margin-left: -10px !important;
+        position: absolute;
+        width: 100% !important;
+    }
+
+    .profile-image {
+        width: 140px;
+        height: 140px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: -5em !important;
+        margin-bottom: 10px;
+        display: block;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    }
+
+    .search-in {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .second-nav {
+        display: none !important;
+    }
+
+    .other-user-profile-image {
+        width: 110px !important;
+        height: 110px !important;
+        margin-left: 0 !important;
+    }
+
+    .rating-share-mobile-view {
+        display: block;
+        margin: 5px;
+    }
+
+    .rating-share-desktop-view {
+        display: none;
+    }
+
+    .wallet-transaction-table {
+        font-size: 9px !important;
+    }
+    #transactionsTable{
+        font-size: 7px !important;
+    }
+    .nsaction-table {
+        font-size: 9px !important;
+    }
+
+
+}
+
+
+@media (max-width: 370px) {
+
+    .like-btn {
+        padding: 4px;
+        margin-left: -10px;
+    }
+
+    .like-emoji #like {
+        margin-left: 13px;
+    }
+
+    .dislike-btn {
+        margin-left: -21px;
+        padding: 4px;
+    }
+
+    .dislike-emoji #dislike {
+        margin-left: 11px;
+        font-size: 12px;
+    }
+
+    .love-btn {
+        margin-left: -32px;
+        padding: 4px;
+    }
+
+    .hurt-emoji #love {
+        margin-left: -23px;
+        font-size: 12px;
+    }
+
+    .smiley-btn {
+        margin-left: -43px;
+        padding: 4px;
+    }
+
+    .smiley-emoji #happy {
+        margin-left: -33px;
+        font-size: 12px;
+    }
+
+    .angry-emoji-btn {
+        margin-left: -55px;
+        padding: 4px;
+    }
+
+    .angry-emoji #angry {
+        margin-left: -46px;
+        font-size: 12px;
+    }
+
+    .disappointed-emoji {
+        position: relative;
+        left: 226px;
+        top: -63px;
+    }
+
+    .disappointed-emoji #sad {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .emojies-btn-row {
+        margin-left: -7px;
+    }
+}
+
+

@@ -1,0 +1,287 @@
+  
+/*  bhoechie tab */
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  border:1px solid #ddd;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+  height: 643px;
+  overflow: scroll;
+}
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  
+}
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+  background-color: #4c4740;
+  color:#ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a .fa,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .fa,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #47AC49;
+  background-image: #47AC49;
+  color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #47AC49;
+}
+
+div.bhoechie-tab-content{
+  background-color: #ffffff;
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+.text-setter{
+  text-align: center;
+  border: 1px solid grey;
+  height: 40px;
+}
+ul>li>a{
+  color: #000000;
+  text-align: center;
+}
+ul>li {
+  padding-left: 10px;
+  /*padding-right: 100%;*/
+}
+.activeClass {
+  background-color: #52ae4e;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: black; 
+}
+
+.nav-main{
+   border-right: 1px solid black; 
+    padding-top: 8px;
+}
+.text{
+
+}
+.active-nav
+{
+  background-color:#47AC49;
+  color: white;
+  height: 100%;
+}
+
+.input-setter{
+  padding-top:30px;
+
+}
+.input-inner-setter > input{
+  border: none; 
+}
+.icon-setter{
+  border: 0px;
+  background-color: white;
+}
+.componentWrapper {
+  border: solid #DEDEDF;
+  padding: 15px 10px 10px;
+  
+}
+
+.componentWrapper .header {
+  position:absolute;
+  margin-top:-30px;
+  margin-left:10px;
+  background:white;
+  border-radius:10px;
+  padding:2px 10px;
+}
+.input-group .input-group-addon {
+  background: white !important;
+}
+.btn-search {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0px;
+}
+.btn-search-ships-section {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0px;
+  margin-top: 5%;
+}
+.top-buffer {
+  position: absolute;
+  bottom: 50px;
+  width: 97.5%;
+}
+nav .active  {
+
+  background-color: #47AC49 !important;
+  color: white !important;
+
+}
+.dropdown, .dropdown-menu{
+   width: 90%;
+}
+.dropdown-toggle{
+   width: 100%;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+  left: -13px;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+.input-group .quantity-field {
+  position: initial;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+.verticalLine {
+  border-left:solid #DEDEDF;;
+}
+.side-by-side {
+  border-right: 1px solid black;
+}
+.btn-round{
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #DEDEDF;
+}
+.division {
+        background: linear-gradient(to right, 
+                                    transparent 0%, 
+                                    transparent calc(50% - 17.81px), 
+                                    #DEDEDF calc(50% - 13.8px), 
+                                    #DEDEDF calc(50% + -14.2px), 
+                                    transparent calc(50% + -13.19px), 
+                                    transparent 100%);
+}
+.botton-setter
+{
+  float: right;
+}
+.con {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.con input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.con:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.con input:checked ~ .checkmark {
+  background-color: #514d46;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.con input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.con .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+.clearInput{
+cursor: grab;
+}
